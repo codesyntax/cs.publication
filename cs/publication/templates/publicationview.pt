@@ -16,6 +16,7 @@
       <iframe tal:attributes="src string:http://docs.google.com/viewer?url=${here/absolute_url}/download/publication_file&embedded=true"
               style="border: none;"
               width="100%"
+              height="700px"
               i18n:translate="label_argitalpena_does_not_support_iframes">
           Your browser does not support iframes. Download the document at <a i18n:name="link" href="" tal:attributes="href string:${here/absolute_url}/at_download/file" tal:content="string:${here/absolute_url}/at_download/file">http://my.file.com/download.pdf</a>
       </iframe>
